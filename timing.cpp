@@ -18,3 +18,8 @@ int64_t Timer::get_time()
 {
     return elapsed_seconds.count();
 }
+
+void Timer::print()
+{
+    std::cout << "Timer ran for " << get_time() << "ns" << std::endl;
+}

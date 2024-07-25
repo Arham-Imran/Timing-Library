@@ -14,6 +14,7 @@ class Timer
     void start();
     void end();
     int64_t get_time();
+    void print();
 };
 
 #endif
